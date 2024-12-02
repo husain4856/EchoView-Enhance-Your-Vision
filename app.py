@@ -12,7 +12,7 @@ import base64
 import inflect
 
 # Initialize Chat model
-chat_model = ChatGoogleGenerativeAI(api_key='AIzaSyAtR-MZMPI91mGIdi34SSPriUiI8wFUbjg', model="gemini-1.5-flash")
+chat_model = ChatGoogleGenerativeAI(api_key='GEMINI_API_KEY', model="gemini-1.5-flash")
 
 # Load Faster R-CNN for object detection
 @st.cache_resource
